@@ -6,3 +6,9 @@ all the repos I have made for it.
 To checkout this repo simply run ~git submodule init~ and
 ~git submodule update --checkout~ after you clone this repo to checkout the
 submodules of this repo.
+
+To create a service account for Argo in any cluster just simply set your kubectl
+context to the cluster you want to create the service account for and run
+~create-argocd-token.sh~.
+
+To undo this run ~destroy-argocd-token.sh~.
