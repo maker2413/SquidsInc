@@ -10,3 +10,6 @@
 [submodule "OlympusCloud"]
 	path = OlympusCloud
 	url = git@github.com:maker2413/OlympusCloud.git
+[submodule "AWSImages"]
+	path = AWSImages
+	url = git@github.com:maker2413/AWSImages
